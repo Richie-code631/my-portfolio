@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css"/>
+<header id="header">
+ <div> <img id="header-img" src="https://cdn.pixabay.com/photo/2017/02/01/12/11/cartoon-2029997_640.png" width="100" alt="your dream trumpets logo">
+ </div>
+<nav id="nav-bar">
+  <ul>
+<li>
+  <a class="nav-link" href="#features">Features</a>
+  </li>
+<li>
+  <a class="nav-link" href="#how-it-functions">How it functions</a>
+  </li>
+ <li>
+   <a class="nav-link" href="#pricing">Pricing</a>
+ </li>   
+  </ul>
+</nav>
+</header>
+
+<section id="email-form">
+  <h2>Harmonious, Stylish and Comfortable</h2>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input id="email" placeholder="trumpet@email.com" type="email" name="email"></input>
+  <div>
+  <input id="submit" type="submit" value="Get Started" class="btn">
+  </div>
+</form>
+
+</section>
+
+<section id="features">
+  <p class="authentic">Authentic Materials</p> <span style="padding-bottom: 20px;">It is constructed of brass tubing bent twice into a rounded oblong shape<br> Sound is produced by blowing air through closed lips, producing a "buzzing" sound into the mouthpiece and starting a standing wave vibration in the air column inside the trumpet.<br> The pipes and the body, in general, have been primarily constructed of brass since the 15th century</span>
+  <p ><span class="warranty"><br>Warranty<br></span> We offer you a mesmerizing one year warranty on all our products. This is to ensure that our produxts are appreciated and enjoyed by our customers.Also, products come with lifetime warranties, which cover defects or issues for the entire lifespan of the product.</p>
+</section>
+
+
+<section id="how-it-functions"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2nPwkb9ZyPQ?si=MUPzzU7oBIIzRooX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></section>
+
+<section id="pricing">
+<div class="price" id="B♭-Trumpet">
+  <div class="level-1" style="font-weight: bold">B♭-Trumpet</div>
+  <h2>$700</h2>
+  <ol>
+<li>Yamaha Bb YTR 2330S </li>
+<li>Merano B Flat Silver Trumpet</li>
+<li>Apelila Bb Key Brass</li>
+<li>Tromba TPC-WH </li> 
+</ol>
+ <button class="btn">Select</button>
+</div>
+<div class="price" id="cornet">
+<div class="level-2">Cornet</div>
+  <h2>$600</h2>
+  <ol>
+<li>RS Berkeley CR614</li>
+<li>Blessing BCR-1230</li>
+<li>Yamaha YCR-2310III</li>
+<li>Ravel RCR102</li> 
+</ol>
+   <button class="btn">Select</button>
+</div>
+
+<div class="price" id="pocket-trumpet">
+  <div class="level-3">Pocket trumpet</div>
+  <h2>$500</h2>
+  <ol>
+<li>Jupiter JTR710</li>
+<li>Stagg WS-TR245</li>
+<li>Roy Benson RBPT101G</li>
+<li>Allora MXPT-5801</li> 
+</ol>
+   <button class="btn">Select</button>
+  
+</div>
+
+<div class="price" id="bass-trumpet">
+  <div class="level-4">Bass trumpet</div>
+  <h2>$800</h2>
+  <ol>
+<li>Wessex BT1</li>
+<li>Bach B188 Stradivarius</li>
+<li>Thein Rotary Low F Trumpet</li>
+<li>Lätzsch BTR Bass Trumpet</li> 
+</ol>
+   <button class="btn">Select</button>
+  </div>  
+</section>
+  <section>
+  <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    <span>Copyright 2018, Original Trumpets</span>
+    </footer>
+  </section>
+</div>
+</div>
+</section>
+
+</html>
+
+<style>
+  header {
+    position: relative;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    background-color: gray;
+   direction: center;
+  word-spacing: 0;
+  text-indent: 1cm;
+    font-size:20px;
+}
+#nav-bar{
+  position: relative;
+  top: 0;
+  left: 200px;
+}
+#email-form{
+  font-size: 20px;
+}
+#email{
+  font-size: 20px;
+}
+#submit{
+  font-size: 20px;
+ border: thick solid white;
+  border-style: double solid dashed dotted;
+        padding: 10px 5px;
+}
+ul{
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  padding:  0px 100px;
+  direction: rtl;
+ 
+ 
+}
+li{
+  display: inline-block;
+text-align: right;
+margin: 5px;
+padding-right: 20px;
+}
+#email-form{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+@media(min-width:1024px){
+  header{
+    background-color:rgb(128, 128, 128); 
+  }
+  section{
+    background-color:#FFEBCD; 
+  }
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.price {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 5);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.authentic{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#features {
+  padding-bottom: 50px;
+  font-size: 20px
+}
+#how-it-functions{
+  text-align: center;
+   padding-bottom: 50px;
+}
+.warranty{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.level-1{
+  font-weight: bold;
+  font-size: 30px;
+}
+.level-2{
+  font-weight: bold;
+  font-size: 30px;
+}
+.level-3{
+  font-weight: bold;
+  font-size: 30px;
+}
+.level-4{
+  font-weight: bold;
+  font-size: 30px;
+}
+.btn:hover {
+  background-color: yellow;
+  transition: background-color 1s;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+
+ 
+  
+  
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+footer > ul > li {
+  padding: 0 10px;
+
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+ 
+}
+</style>

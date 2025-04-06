@@ -1,0 +1,200 @@
+<link rel="stylesheet" href="styles.css">
+  <h1 id="title">Survey Form on Work Efficiency</h1>
+  <p id="description">Kindly help us to Improve work efficiency</p>
+  <form id="survey-form">
+    <div class="input element">
+ <label id="name-label" for="name"><p><span style="font-weight: bold;">
+   Name:
+   </p></label>
+    <input placeholder="Your Name" id="name" type="text"  required />
+   </div>
+
+  <div class="input element">
+      <label id="email-label" for="email"><p><span style="font-weight: bold;">
+        Email:
+     </p> </label>
+   <input placeholder="Your Email" id="email" type="email"  required/>
+   </div>
+
+   <div class="input element">
+      <label id="number-label" for="number"><p><span style="font-weight: bold;">
+        Age:
+     </p> </label>
+   <input  placeholder="age" id="number" type="number" min="15"  max="50" required/>
+   </div>
+   
+   <div class="input element">
+      <label id="select-label"><p><span style="font-weight: bold;">
+        Which best describes your work role?</p>
+      </label>
+   <select id="dropdown">
+     <option>Chief Executive officer</option>
+     <option>President and/or Vice President</option>
+     <option>Chief Executive officer</option>
+     <option>Executive Assistant</option>
+     <option>Departmental Head</option>
+     <option>Departmental Specialist</option>
+     <option>Senior Staffer </option>
+     <option>Junior Staffer</option>
+     <option>Intern</option>
+   </select>
+   </div>
+   
+   <div>
+     <label ><p><span style="font-weight: bold;">
+       How best can you descibe your work relationship with other workers?<p/>
+     </label>
+     </div>
+
+     <div>
+     <label><input type="radio" name="job" value="good"/> Good</label>
+     </div>
+
+     <div>
+     <label><input type="radio" name="job" value="bad"/> Bad</label>
+     </div>
+
+     <label><input type="radio" name="job" value="Prefer not to say"/> Prefer not to say</label>
+   </div>
+
+
+<div class="input element">
+     <label ><p><span style="font-weight: bold;">
+       What do you suggest can improve work efficiency at the workplace?</p>
+     </label>
+     </div>
+     <div=>
+     <label><input type="checkbox" name="suggestions" value="Taking breaks"/> Taking breaks</label>
+     </div>
+     <div >
+     <label><input type="checkbox" name="suggestions" value="Establishing realistic goals"/> Establishing realistic goals</label>
+     </div>
+
+     <div>
+     <label><input type="checkbox" name="suggestions" value="Measuring time for each task"/> Measuring time for each task</label>
+     </div>
+     
+      <div>
+     <label><input type="checkbox" name="suggestions" value="Commitment to deadlines"/> Commitment to deadlines</label>
+     </div>
+
+     <div>
+     <label><input type="checkbox" name="job" value="Concentrating on tasks"/> Concentrating on tasks</label>
+     </div>
+
+     <div>
+     <label><input type="checkbox" name="suggestions" value="Designing a relaxing work environment"/> Designing a relaxing work environment</label>
+   </div>
+   
+      <div >
+     <label><input type="checkbox" name="suggestions" value="Creating a healthy relationship with the higher-ups and vice-versa"/> Creating a healthy relationship with the higher-ups and vice-versa</label>
+     </div>
+
+     <div >
+     <label><input type="checkbox" name="suggestions" value="Asking for feedback"/> Asking for feedback</label>
+     </div>
+
+     <div >
+     <label><input type="checkbox" name="suggestions" value="Minimizing interruptions"/> Minimizing interruptions</label>
+   </div>
+
+<div class="comments">
+  <label> <p><span style="font-weight: bold;">Additional Comments</p>
+  </label>
+  </div>
+
+  <div class="my-box">
+  <label>
+  <textarea type="text" id="myTextarea" name="myTextarea" rows="7" cols="40">
+  </textarea>
+  </div>
+  <div class="button">
+<button type="submit" class="my-button" id="submit">submit</submit></div>
+  </form>
+
+<style>
+
+body {
+background-color:  lightblue;
+background-image: url (https://th.bing.com/th/id/OIP.oacMB6eIoseTAupYYTKLoAHaER?w=271&h=180&c=7&r=0&o=5&pid=1.7);
+background-size: cover;
+text-align: center;
+}
+
+form {
+  max-width: 800px;
+  Display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  line-height: 1.2;
+ 
+}
+.input {
+  padding: auto;
+  border: none;
+  border-radius: 10px; 
+}
+input::placeholder{
+font-size: 14px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+ .my-box {
+   text-align: center;
+ }
+.comments{
+  text-align: center;
+ 
+}
+
+select{
+   padding: 5px;
+  border: none;
+  border-radius: 10px; 
+  font-size: 16px;
+}
+div.form {
+  display: block;
+  text-align: center;
+}
+.button{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+<style>
+  
+
+  input[type="text"] {
+    text-align: center; 
+     padding: 1px;
+    border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  }
+  input[type="email"] {
+    text-align: center; 
+     padding: 1px;
+    border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  }
+  input[type="number"] {
+    text-align: center;
+    padding: 1px;
+    border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  }
+</style>
+
+
+
+
